@@ -7,6 +7,8 @@ env:
 
 jobs:
   run_synthetic:
+    runs-on: ubuntu-latest
+
     steps:
       - name: Run tests
         uses: newrelic-experimental/newrelic-continuous-automated-testing-action@v0.0.1

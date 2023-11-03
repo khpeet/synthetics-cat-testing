@@ -1,0 +1,15 @@
+name: New Relic CAT
+
+on: [push]
+
+env:
+  NEW_RELIC_API_KEY: ${{ secrets.NEW_RELIC_API_KEY }}
+
+jobs:
+  run_synthetic:
+    steps:
+      - name: Run tests
+        uses: newrelic-experimental/newrelic-continuous-automated-testing-action@v0.0.1
+        with:
+          new_relic_api_key: ${{ secrets.NEW_RELIC_API_KEY }}
+          config_file_path: .github/workflows/synthetics-config.json

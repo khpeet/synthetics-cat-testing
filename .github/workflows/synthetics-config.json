@@ -7,12 +7,7 @@
             "config": {
                 "isBlocking": false,
                 "overrides": {
-                  "domain": [
-                       {
-                         "domain": "https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=simple-login-form",
-                         "override": "http://google.com"
-                       }
-                   ]
+                  "startingUrl": "https://www.google.com"
                 }
             }
         }

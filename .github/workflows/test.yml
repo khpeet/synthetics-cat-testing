@@ -18,3 +18,7 @@ jobs:
         with:
           new_relic_api_key: ${{ secrets.NEW_RELIC_API_KEY }}
           config_file_path: .github/workflows/synthetics-config.json
+
+      - name: Extra step
+        run: |
+          echo "Testing"

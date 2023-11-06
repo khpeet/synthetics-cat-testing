@@ -6,9 +6,6 @@
             "monitorGuid": "MTAwMDEwNDV8U1lOVEh8TU9OSVRPUnxjZjY3Y2YzMS04YTBmLTQzYTktOWQ5OC00MzU1ZWY4NDVmNTg",
             "config": {
                 "isBlocking": false,
-                "overrides": {
-                  "startingUrl": "https://www.google.com"
-                }
             }
         }
     ],

@@ -15,7 +15,7 @@ jobs:
 
       - name: Run tests
         id: 'newrelic-synthetics'
-        uses: newrelic-experimental/newrelic-continuous-automated-testing-action@v0.1.2
+        uses: newrelic-experimental/newrelic-continuous-automated-testing-action@v0.0.3
         with:
           new_relic_api_key: ${{ secrets.NEW_RELIC_API_KEY }}
           config_file_path: .github/workflows/synthetics-config.json

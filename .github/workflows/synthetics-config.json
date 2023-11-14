@@ -9,7 +9,7 @@
                 "overrides": {
                   "domain": [
                     {
-                      "domain": "https://www.tutorialrepublic.com"
+                      "domain": "https://www.tutorialrepublic.com",
                       "override": "http://www.google.com"
                     }
                   ]
